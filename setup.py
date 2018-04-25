@@ -1,16 +1,20 @@
 import os
 
+"""
 from pip.req import parse_requirements
 from pip.download import PipSession
+"""
 
 from setuptools import setup, find_packages
 
+"""
 def read_requirements():
     '''parses requirements from requirements.txt'''
     reqs_path = os.path.join('.', 'requirements.txt')
     install_reqs = parse_requirements(reqs_path, session=PipSession())
     reqs = [str(ir.req) for ir in install_reqs]
     return reqs
+"""
 
 setup(
     name='neuronunit',
