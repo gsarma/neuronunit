@@ -22,6 +22,6 @@ setup(
     license='MIT',
     description='A SciUnit library for data-driven testing of single-neuron physiology models.',
     long_description="",
-    test_suite="neuronunit.unit_test.core_tests",    
-    install_requires=read_requirements(),
+    test_suite="neuronunit.unit_test.core_tests",
+    install_requires=['NONE'],
     )
