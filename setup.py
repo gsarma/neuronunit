@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 def read_requirements():
     '''parses requirements from requirements.txt'''
-    reqs_path = os.path.join('.', 'requirements.txt')
+    reqs_path = os.path.join('.', 'requirements_full.txt')
     reqs = open(reqs_path, 'r')
     reqlist = [line.rstrip() for line in reqs]
     reqs.close()
